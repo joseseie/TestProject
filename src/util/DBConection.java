@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package util;
 
 import java.sql.Connection;
@@ -14,10 +10,10 @@ import javax.swing.JOptionPane;
 
 public class DBConection {
     
-    private static String dbName = ""; //nome da base de dados
-    private static String userName = ""; //nome de usuário para conexão com a db
+    private static String dbName = "poo_db"; //nome da base de dados
+    private static String userName = "root"; //nome de usuário para conexão com a db
     private static String password = ""; //Password de acesso
-    private static String server = ""; //Servidor or ip, mas geralmente: localhost
+    private static String server = "localhost"; //Servidor or ip, mas geralmente: localhost
     
     public static Connection conect () {
         try {
